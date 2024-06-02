@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.food-img {
+    width: 200px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+}
+.w-50 {
+    width: 50%;
+}
+.d-flex {
+    display: flex;
+    justify-content: end;
+}
